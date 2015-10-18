@@ -1,7 +1,7 @@
-MorePistons
+GravitationnalBlock
 ============
 
-More Pistons Mod for Minecraft
+Gravitationnal Block Mod for Minecraft
 
 Install forge for compile source
 
