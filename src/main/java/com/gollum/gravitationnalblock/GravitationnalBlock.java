@@ -6,6 +6,7 @@ import com.gollum.core.common.log.Logger;
 import com.gollum.core.common.mod.GollumMod;
 import com.gollum.core.common.version.VersionChecker;
 import com.gollum.gravitationnalblock.common.CommonProxyGravitationnalBlock;
+import com.gollum.gravitationnalblock.common.config.ConfigGravitationnalBlock;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -49,7 +50,7 @@ public class GravitationnalBlock extends GollumMod {
 	/**
 	 * La configuration
 	 */
-	public static GravitationnalBlock config;
+	public static ConfigGravitationnalBlock config;
 	
 	@EventHandler public void handler(FMLPreInitializationEvent event)  { super.handler (event); }
 	@EventHandler public void handler(FMLInitializationEvent event)     { super.handler (event); }
